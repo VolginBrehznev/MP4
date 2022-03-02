@@ -2,7 +2,6 @@
 #Résolution image : La résolution représente une densité de points (ou pixels) sur une longueur donnée 
 #Profondeur de couleur : La profondeur de couleurs, dont l'unité est le bits par pixel, est un terme utilisé en informatique décrivant le nombre de bits utilisés pour représenter la couleur d'un pixel dans une image.
 
-
 from PIL import Image
 
 img1 = Image.open(" .png")
