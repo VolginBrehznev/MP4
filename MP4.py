@@ -4,15 +4,14 @@
 
 from PIL import Image
 
-img1 = Image.open(" .png")
+img1 = Image.open("iguane.jpg")
 img1.show()
 
 
 def definition_image(image):
     largeur = image.width
     longueur = image.height
-    return longueur * largeur
-
+    return longueur * largeurecho "# MP4" >> README.md
 
 print(definition_image(img1))
 
